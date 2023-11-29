@@ -1,0 +1,24 @@
+.btn {
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  &-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    color: $text-color;
+  }
+  &-warning {
+    background-color: $warning-color;
+    border-color: $warning-color;
+    color: $text-color;
+  }
+  &-success {
+    background-color: $success-color;
+    border-color: $success-color;
+    color: $text-color;
+  }
+}

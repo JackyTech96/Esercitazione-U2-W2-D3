@@ -1,0 +1,37 @@
+@import "./partials/reset";
+@import "./partials/colors";
+@import "./partials/buttons";
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+
+  img {
+    width: 100px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg-hero;
+  img {
+    height: 300px;
+  }
+}
+
+main {
+  div {
+    display: flex;
+    margin: 3rem;
+    img {
+      width: 25%;
+    }
+  }
+}
